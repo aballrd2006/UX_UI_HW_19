@@ -25,6 +25,10 @@ body {
     color: #9a584d;
 }
 
+#navBar a:hover, .readMore:hover{
+    color: #CB8158;
+}
+
 #sectionGrid {
     margin: 0px auto;
     display: grid;
@@ -91,12 +95,13 @@ body {
 
 #mainLeft {
     grid-area: mainLeft;
+    height: 500px;
+    width: 600px;
     padding-left: 120px;
     padding-top: 100px;
     margin: 0 auto;
     justify-content: left;
     float: left;
-    height: 500px;
     background-color: #fff;
 }
 
@@ -138,7 +143,7 @@ p {
     color: #333333;
 }
 
-a {
+.readMore {
     text-align: left;
     font: normal normal bold 18px/20px Lato;
     letter-spacing: 0.45px;
@@ -185,3 +190,18 @@ img.logo {
     padding-top: 82px;
 }
 
+.linkedin:hover {
+    image: url("../images/linkedin-hover@2x.png");
+}
+
+.instagram:hover {
+
+}
+
+.facebook:hover {
+
+}
+
+.twitter:hover {
+
+}
