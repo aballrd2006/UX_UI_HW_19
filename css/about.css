@@ -25,6 +25,10 @@ body {
     color: #9a584d;
 }
 
+#navBar a:hover {
+    color: #CB8158;
+}
+
 #skillsGrid {
     margin: 0px;
     display: grid;
