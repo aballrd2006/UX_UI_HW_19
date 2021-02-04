@@ -53,7 +53,7 @@ body {
     margin: 0px auto;
 }
 
-#research:hover {
+.box-hover {
     box-shadow: 0 0 11px rgba(33,33,33,.2); 
 }
 
@@ -66,10 +66,6 @@ body {
     margin: 0px auto;
 }
 
-#design:hover {
-    box-shadow: 0 0 11px rgba(33,33,33,.2); 
-}
-
 #webDev {
     grid-area: webDev;
     width: 350px;
@@ -77,10 +73,6 @@ body {
     background: #D1C2BB4D 0% 0% no-repeat padding-box;
     padding-top: 36px;
     margin: 0px auto;
-}
-
-#webDev:hover {
-    box-shadow: 0 0 11px rgba(33,33,33,.2); 
 }
 
 #connect {
